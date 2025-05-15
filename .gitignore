@@ -1,0 +1,12 @@
+# NetBeans / Java
+/build/
+/nbproject/private/
+/*.class
+*.log
+
+# VSCode
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

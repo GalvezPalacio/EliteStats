@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html lang="es">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos.css"> 
+        <meta charset="UTF-8">
+        <title>EliteStats</title>
+        <style>
+
+            body {
+                font-family: Arial, sans-serif;
+                padding: 40px;
+                background-color: #f4f4f4;
+            }
+
+            h1 {
+                margin-bottom: 30px;
+            }
+
+            label {
+                font-weight: bold;
+            }
+
+            .form-group {
+                margin-bottom: 20px;
+            }
+
+            select, button {
+                padding: 8px;
+                width: 250px;
+                font-size: 14px;
+            }
+
+            button {
+                cursor: pointer;
+                background-color: #2e8b57;
+                color: white;
+                border: none;
+                margin-top: 10px;
+            }
+
+            button:hover {
+                background-color: #246f47;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1 class="titulo">EliteStats</h1>
+        <h1>Consulta de Ligas</h1>
+
+
+        <form action="consultar" method="POST">
+            <!-- LIGA -->
+            <div class="form-group">
+                <label for="liga">Elige liga:</label><br>
+                <select name="liga" id="liga">
+                    <option value="Liga EA (1929-Act)">Liga EA (1929-Act)</option>
+                    <option value="Premier League (1889-Act)">Premier League (1889-Act)</option>
+                    <option value="Serie A (1898-Act)">Serie A (1898-Act)</option>
+                    <option value="Bundesliga (1964-Act)">Bundesliga (1964-Act)</option>
+                    <option value="Ligue 1 (1933-Act)">Ligue 1 (1933-Act)</option>
+                </select>
+            </div>
+
+            <!-- AÑO -->
+            <div class="form-group">
+                <label for="anio">Elige año:</label><br>
+                <select name="anio" id="anio">
+                    <!-- Años generados por JavaScript -->
+                </select>
+            </div>
+
+            <!-- DATO -->
+            <div class="form-group">
+                <label for="dato">¿Qué quieres saber?</label><br>
+                <select name="dato" id="dato">
+                    <option value="Campeón">Campeón</option>
+                    <option value="Subcampeón">Subcampeón</option>
+                    <option value="Pichichi">Pichichi</option>
+                    <option value="Zamora">Zamora</option>
+                    <option value="Todos">Todos</option>
+                </select>
+            </div>
+
+            <!-- BOTÓN -->
+            <button type="submit">Consultar</button>
+        </form>
+
+        <script>
+            // Llenar el combo de años desde 2024 hasta 1889
+            const selectAnios = document.getElementById("anio");
+            for (let año = 2024; año >= 1889; año--) {
+                const opcion = document.createElement("option");
+                opcion.value = año;
+                opcion.textContent = año;
+                selectAnios.appendChild(opcion);
+            }
+        </script>
+
+    </body>
+</html>

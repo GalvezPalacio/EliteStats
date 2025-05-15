@@ -1,0 +1,117 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 mar 2025, 10:03:56
+    Author     : gabri
+*/
+
+body {
+    cursor: url("img/balon-de-futbol.png"), auto;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background-image: url("img/actual_tablet.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #00ccff, 0 0 10px #00ccff;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+form {
+
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #00ccff;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 500px;
+    margin: 20px 0 0 40px;
+    box-shadow: 0 0 12px #00ccff88, 0 0 24px #00ccff44;
+    backdrop-filter: blur(5px);
+}
+label {
+    cursor: url("img/cursor-futbol.png") 16 16, auto;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+select {
+    cursor: url("img/balon-de-futbol.png"), auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #00ccff;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 6px #00ccff55;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    backdrop-filter: blur(2px);
+}
+
+select:focus {
+    outline: none;
+    border-color: #00ffff;
+    box-shadow: 0 0 10px #00ffff88;
+}
+
+button {
+    background: transparent;
+    color: #00ccff;
+    font-weight: bold;
+    border: 2px solid #00ccff;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ccff88, 0 0 20px #00ccff44;
+    text-shadow: 0 0 5px #00ccff;
+    transition: all 0.3s ease;
+    cursor: url("img/balon-de-futbol.png"), auto;
+    backdrop-filter: blur(2px);
+}
+
+button:hover {
+    background-color: rgba(0, 204, 255, 0.1);
+    box-shadow: 0 0 20px #00ccffaa, 0 0 25px #00ccff66;
+}
+
+button:active {
+    background-color: rgba(0, 204, 255, 0.25);
+    box-shadow: 0 0 10px #007788cc inset;
+}
+.titulo {
+    font-family: 'Exo+2', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #00ffff;
+    text-shadow: 0 0 8px #00ffff, 0 0 15px #00cccc;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 25px;
+    border-radius: 12px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 12px #00ffff44;
+}
