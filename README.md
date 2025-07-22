@@ -53,7 +53,7 @@ EliteStats/
 
 ## 👨‍💻 Autor
 
-Desarrollado por **GabryDev** ([@gabryone86](https://github.com/gabryone86))  
+Desarrollado por **GabryDev** ([`@GalvezPalacio`](https://github.com/GalvezPalacio)) 
 Si deseas usar este código o contribuir, por favor respeta los términos de la licencia.
 
 ---
