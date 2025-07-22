@@ -53,7 +53,7 @@ EliteStats/
 
 ## 👨‍💻 Autor
 
-Desarrollado por **GabryDev** ([`@GalvezPalacio`](https://github.com/GalvezPalacio)) 
+Desarrollado por **GabryDev** ([`@GalvezPalacio`](https://github.com/GalvezPalacio)) como proyecto personal y académico del Ciclo DAM.
 Si deseas usar este código o contribuir, por favor respeta los términos de la licencia.
 
 ---
