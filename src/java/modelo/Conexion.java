@@ -16,8 +16,8 @@ public class Conexion {
 
     // atributos
     private static final String URL = "jdbc:mysql://localhost:3306/ligas";
-    private static final String USER = "USUARIO";  // Escribe aquí tu usuario
-    private static final String PASS = "CONTRASEÑA";  // Escribe aquí tu contraseña
+    private static final String USER = "root";
+    private static final String PASS = "1234";
 
     // constructor
     public Conexion() {
